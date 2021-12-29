@@ -1,0 +1,6 @@
+version: "1"
+steps:
+  - name: echo 
+    image: alpine
+    commands:
+      - echo "Hello, ${VELA_REPO_FULL_NAME}"
